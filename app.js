@@ -1,19 +1,6 @@
-const http = require("http");
+const _ = require("lodash");
 
-const port = 8000;
-const server = http.createServer((req, res) => {
-    // console.log(req);
-    if (req.url === "/") {
-        res.end("Welcome to our homepage!");
-    }
-    else if (req.url === "/about") {
-        res.end("Here is about us!");
-    }
-    else {
-        res.end(`<h1>Oops!</h1><p>You have hit a dead-end</p><a href="/"/>Go back to home</a>`)
-    }
-    // res.write("Welcome to the homepage!");
-    // res.end();
-});
+const items = [1, [2, [3, [4]]]]
+const newItems = _.flattenDeep(items)
 
-server.listen(port);
+console.log(newItems);

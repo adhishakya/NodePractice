@@ -1,0 +1,22 @@
+{
+  "name": "nodepractice",
+  "version": "1.0.0",
+  "description": "Practicing Node",
+  "main": "10_fileSync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adhishakya/NodePractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adhishakya/NodePractice/issues"
+  },
+  "homepage": "https://github.com/adhishakya/NodePractice#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
