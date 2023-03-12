@@ -1,7 +1,7 @@
 const amount = 12;
 if (amount < 13) {
-    console.log("Small")
+    console.log("Small");
 }
 else {
-    console.log("Big")
+    console.log("Big");
 }
