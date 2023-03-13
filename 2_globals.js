@@ -1,4 +1,4 @@
 // console.log(__dirname);
-setInterval(()=>{
+setInterval(() => {
     console.log("Hello world!");
-},1000);
+}, 1000);
